@@ -390,8 +390,6 @@ fieldset {
 
 .menu-bg .logo {
     padding-top: 18px;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
 }
 
 .menu-bg .mainmenu .navbar-nav li a {

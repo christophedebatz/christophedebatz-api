@@ -36,12 +36,22 @@ Version      : 1.0
 
         var headertopoption = $(window);
         var headTop = $('.header-top-area');
+        var logo = $('.logo > img');
 
         headertopoption.on('scroll', function () {
-            if (headertopoption.scrollTop() > 200) {
+            if (headertopoption.scrollTop() > 400) {
                 headTop.addClass('menu-bg');
+                logo.css({'border': '8px solid black'});
+                logo.css({'width': '100px'});
+                logo.css({'height': '100px'});
+                logo.css({'padding': '-1px'});
             } else {
                 headTop.removeClass('menu-bg');
+                logo.css({'border': '6px solid white'});
+                logo.css({'padding': '2px'});
+                logo.css({'width': '150px'});
+                logo.css({'height': '150px'});
+                
             }
         });
 
