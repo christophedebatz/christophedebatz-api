@@ -339,7 +339,8 @@ fieldset {
 }
 
 .logo {
-    padding-top: 28px;
+    padding-top: 20px;
+    margin-left: -35px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }

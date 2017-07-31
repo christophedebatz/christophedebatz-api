@@ -129,6 +129,10 @@ Version      : 1.0
     .single-contact-details i {
         margin-bottom: 20px;
     }
+    .logo {
+        display: none;
+    }
+
     .single-service,
     .single-blog {
         margin-bottom: 30px;
